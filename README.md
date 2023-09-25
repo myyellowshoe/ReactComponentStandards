@@ -26,12 +26,14 @@ We've had for years standards like airbnb amazing style guides/standards as well
 
 ### Component Structure
 
-`BaseComponent
+```
+Components /
+BaseComponent
 - BaseComponent.view.tsx 
 - BaseComponent.data.tsx
 - BaseComponent.module.css
 - index.tsx
-`
+```
 
 
 ## Feedback
