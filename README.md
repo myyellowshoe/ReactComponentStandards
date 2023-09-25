@@ -14,9 +14,9 @@ We've had for years standards like airbnb amazing style guides/standards as well
 
 ## Implementation
 
-[] Conceptual Draft
-[] Reasoning
-[] Component Examples
+- [] Conceptual Draft
+- [] Component Examples
+- [] Strategy & Reasoning
 
 ### Concepts
 
