@@ -39,6 +39,24 @@ BaseComponent
   - index.tsx
 ```
 
+### Decision Guidelines
+#### Explicit is better than Implicit
+When naming things being a bit more explicit in the description of the item is usually better than generalized names. This reduces the cognative load when understanding what's going on in a peice of code or looking through logs. 
+> You're not writing this for how'll you'll understand it now, but 6 months from now when you've totally forgot what the heck is going on. -someone famous
+
+Examples:
+```
+Bad:
+<Primary />;
+
+Good:
+<PrimaryLayout />
+```
+
+**Exceptions:**
+As is the case there are always exceptions to rules. In this case when the point is to have generalized components for buttons, lists, tables, etc... It's more than fine to do so.
+
+
 
 ## Feedback
 Please submit any feedback you may have! Would love to know if it helps.
